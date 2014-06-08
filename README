@@ -1,0 +1,10 @@
+SUMMARY:
+this program allows the user to enter a string, and a LED that is externally wired to a Raspberry Pi via GPIO pin 17 will blink in morse code corresponding to the inputted string. 
+
+TO USE:
+make
+
+NOTES:
+- the user must be logged in as root in order to use the GPIO pins
+- the directory "/sys/class/gpio/gpio17" must be created beforehand
+- only numbers, lowercase letters, and spaces will work
